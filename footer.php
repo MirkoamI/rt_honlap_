@@ -67,7 +67,7 @@
 
 <footer>
     <p>&copy; <?php echo date('Y'); ?> Rozs Tamás. Minden jog fenntartva.</p>
-    <p>Webdesign: Rozs Mirkó 2026</p>
+    <p>Webdesign 2026</p>
 </footer>
 
 <script>
