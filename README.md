@@ -35,10 +35,3 @@ QUICK START
 2. Ensure PHP is running.
 3. Open index.php.
 4. To update the music, replace ARCOFON.mp3 in the /zene folder or update the path in header.php.
-
----
-
-FUTURE PLANS
-
-- Adding an audio-only section for full album streaming.
-- Implementing a simple admin dashboard to edit the .txt files directly through the browser.
