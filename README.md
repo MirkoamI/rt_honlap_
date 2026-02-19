@@ -20,15 +20,6 @@ TECH STACK
 
 ---
 
-PROJECT STRUCTURE
-
-- /eload: Contains folders by year (e.g., /2026) with monthly .txt files for concert listings.
-- /img/galeria: The source for the gallery. Dropping a photo here automatically adds it to the site.
-- /szovegek: Stores the bio (bemutatkozas.txt), awards (dijak.txt), and other static content.
-- /zene: Where the background tracks live.
-
----
-
 QUICK START
 
 1. Clone the repo to your local server (XAMPP, MAMP, or a live Linux box).
