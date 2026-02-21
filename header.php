@@ -93,12 +93,12 @@
 
 <nav>
     <ul class="nav-links">
-        <li><a href="index.php">Kezdőlap</a></li>
-        <li><a href="bemutatkozas.php">Bemutatkozás</a></li>
-        <li><a href="galeria.php">Galéria/Videók</a></li>
-        <li><a href="koncertek.php">Koncertek/Előadások</a></li>
-        <li><a href="kapcsolat.php">Kapcsolat</a></li>
-        <li><a href="interjuk.php">Interjúk/Felvételek</a></li>
+        <li><a href="index.php">Kezdőlap/Main page</a></li>
+        <li><a href="bemutatkozas.php">Bemutatkozás/About me</a></li>
+        <li><a href="galeria.php">Galéria/Pictures</a></li>
+        <li><a href="koncertek.php">Előadások/Performances</a></li>
+        <li><a href="kapcsolat.php">Kapcsolat/Contact</a></li>
+        <li><a href="interjuk.php">Interjúk/Interviews</a></li>
     </ul>
 </nav>
 <?php

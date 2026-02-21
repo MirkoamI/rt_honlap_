@@ -138,7 +138,6 @@
 
             <div class="contact-section">
                 <strong>Email</strong>
-                <a href="mailto:rozstamas@rotamus.hu">rozstamas@rotamus.hu</a><br>
                 <a href="mailto:ryesharp@gmail.com">ryesharp@gmail.com</a><br>
                 <a href="mailto:rozstamas495@gmail.com">rozstamas495@gmail.com</a><br>
                 <a href="mailto:rozs@szelkialto.hu">rozs@szelkialto.hu</a>
@@ -146,8 +145,7 @@
 
             <div class="contact-section">
                 <strong>Honlapok</strong>
-                <a href="https://rotamus.webnode.hu" target="_blank" rel="noopener">rotamus.webnode.hu</a><br>
-                <a href="http://www.rotamus.hu" target="_blank" rel="noopener">www.rotamus.hu</a><br>
+                <a href="http://www.rozstamus.com" target="_blank" rel="noopener">www.rozstamus.com</a><br>
                 <a href="http://www.szelkialto.hu" target="_blank" rel="noopener">www.szelkialto.hu</a>
             </div>
 
@@ -161,8 +159,8 @@
                 <ul class="social-list">
                     <li><a href="https://www.port.hu/pls/pe/person.person?i_pers_id=131590" target="_blank" rel="noopener">Port.hu adatlap</a></li>
                     <li><a href="https://www.youtube.com/@Tam%C3%A1sRozs" target="_blank" rel="noopener">YouTube csatorna</a></li>
-                    <li><a href="https://www.facebook.com/rozs.tamas" target="_blank" rel="noopener">Facebook: Rozs Tamás</a></li>
-                    <li><a href="https://www.facebook.com/rozstamasmusician" target="_blank" rel="noopener">Facebook: Rozs Tamás Musician</a></li>
+                    <li><a href="https://www.facebook.com/trozs1" target="_blank" rel="noopener">Facebook: Rozs Tamás</a></li>
+                    <li><a href="https://www.facebook.com/RoTaMus" target="_blank" rel="noopener">Facebook: Rozs Tamás Musician</a></li>
                     <li><a href="https://soundcloud.com/trozs1" target="_blank" rel="noopener">Soundcloud: Tamás Rozs</a></li>
                 </ul>
             </div>
@@ -175,9 +173,6 @@
                     echo '<img src="' . $kep . '" alt="Galéria">';
                 }
             ?>
-            <blockquote>
-                "A zenének nincsenek határai, a növekedésének és a haladási irányának nincsenek korlátai, a kreativitásának nincsenek megszorításai. A jó zene az jó zene, függetlenül attól, hogy milyen fajta. Világéletemben utálTam a besorolásokat, mindig úgy éreztem, hogy ennek a muzsikában nincs helye." / Miles Davis /
-            </blockquote>
         </div>
     </main>
     <?php include 'footer.php'; ?>

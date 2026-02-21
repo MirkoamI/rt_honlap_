@@ -94,6 +94,9 @@
                     echo '<img src="' . $kep . '" alt="Galéria">';
                 }
             ?>
+            <blockquote>
+                "A zenének nincsenek határai, a növekedésének és a haladási irányának nincsenek korlátai, a kreativitásának nincsenek megszorításai. A jó zene az jó zene, függetlenül attól, hogy milyen fajta. Világéletemben utálTam a besorolásokat, mindig úgy éreztem, hogy ennek a muzsikában nincs helye." / Miles Davis /
+            </blockquote>
         </div>
 
         <div class="content-box">
@@ -146,7 +149,7 @@
 
         <div class="side-images">
             <?php
-                $jobbOldali = array_slice($osszesKep, 3, 3);
+                $jobbOldali = array_slice($osszesKep, 3,3);
                 foreach ($jobbOldali as $kep) {
                     echo '<img src="' . $kep . '" alt="Galéria">';
                 }
@@ -156,6 +159,7 @@
             </blockquote>
         </div>
     </main>
+    <?php include 'zene/audio.php'; ?>
     <?php include 'footer.php'; ?>
 </body>
 </html>

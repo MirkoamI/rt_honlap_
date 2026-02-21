@@ -154,6 +154,13 @@
             <h2>Videós összeállítások</h2>
 
             <div class="video-wrapper">
+                <h3>Index - A zenész ott járt és onnan jött vissza, ahonnan kevesen</h3>
+                <div class="video-container">
+                <iframe src="https://indaplay.hu/embed/index/arutluk/a-zenesz-ott-jart-es-onnan-jott-vissza-ahonnan-kevesen" allowfullscreen></iframe>
+            </div>
+            </div>
+
+            <div class="video-wrapper">
                 <h3>Ismerős - Rozs Tamás portré (Pannon TV)</h3>
                 <div class="video-container">
                     <iframe src="https://www.youtube.com/embed/6HPqoOB29-A" allowfullscreen></iframe>
