@@ -3,8 +3,8 @@
         position: fixed;
         bottom: 20px;
         left: 20px;
-        background: rgba(86, 182, 91, 0.9);
-        padding: 10px;
+        background: rgba(86, 182, 91, 0.95);
+        padding: 8px 15px;
         border-radius: 50px;
         display: flex;
         align-items: center;
@@ -12,11 +12,26 @@
         z-index: 2000;
         box-shadow: 0 4px 15px rgba(0,0,0,0.3);
         color: white;
+        max-width: 85vw;
     }
 
     .audio-player audio {
         height: 30px;
-        width: 300px;
+        width: 250px;
+    }
+
+    @media (max-width: 600px) {
+        .audio-player {
+            bottom: 10px;
+            left: 10px;
+            padding: 5px 10px;
+        }
+        .audio-player audio {
+            width: 180px;
+        }
+        .audio-player span {
+            display: none;
+        }
     }
 </style>
 

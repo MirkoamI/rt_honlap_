@@ -129,7 +129,7 @@
                         }
                     }
                 ?>
-                <li><a href="https://www.szelkialto.hu">Székiáltó koncertek</a></li>
+                <li><a href="https://www.szelkialto.hu" target="_blank" rel="noopener">Székiáltó koncertek</a></li>
                 </ul>
             </p>
 

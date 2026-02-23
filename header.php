@@ -66,6 +66,7 @@
         text-transform: uppercase;
         transition: background-color 0.2s;
         display: block;
+        text-align: center;
     }
 
     .nav-links li a:hover {
@@ -74,12 +75,63 @@
 
     blockquote {
             font-style: italic;
-            color: #555;
+            color: #4d5b4d;
             border-left: 4px solid #2e7d32;
             padding-left: 15px;
             margin: 0;
             font-size: 1.1em;
             line-height: 1.5;
+    }
+
+    @media (max-width: 800px) {
+        header {
+            height: 200px;
+        }
+
+        .inter {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .home img {
+            height: 120px;
+        }
+
+        nav {
+            padding: 10px 0;
+        }
+
+        .nav-links {
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .nav-links li {
+            width: 90%;
+        }
+
+        .nav-links li a {
+            padding: 15px;
+            font-size: 16px;
+        }
+
+        .side-images {
+            display: none !important;
+        }
+
+        main {
+            grid-template-columns: 1fr !important;
+            padding: 10px;
+        }
+
+        .content-box, .text-content, .contact-content {
+            padding: 20px !important;
+            margin: 0 !important;
+        }
     }
 </style>
 
@@ -101,11 +153,16 @@
         <li><a href="interjuk.php">Interjúk/Interviews</a></li>
     </ul>
 </nav>
-<?php
-    const honapok = ['január', 'február', 'március', 'április', 'május', 'június', 'július', 'augusztus', 'szeptember', 'október', 'november', 'december'];
 
-    function getAktHonap() {
-        $i = (int)date('n') - 1;
-        return honapok[$i];
+<?php
+    if (!defined('HONAPOK')) {
+        define('HONAPOK', ['január', 'február', 'március', 'április', 'május', 'június', 'július', 'augusztus', 'szeptember', 'október', 'november', 'december']);
+    }
+
+    if (!function_exists('getAktHonap')) {
+        function getAktHonap() {
+            $i = (int)date('n') - 1;
+            return HONAPOK[$i];
+        }
     }
 ?>
