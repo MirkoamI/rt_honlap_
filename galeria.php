@@ -149,7 +149,29 @@
             top: 0; left: 0; width: 100%; height: 100%;
             border: 0;
         }
+        .article-list {
+            list-style: none;
+            padding: 0;
+        }
 
+        .article-list li {
+            margin-bottom: 15px;
+            padding: 15px;
+            background: rgba(255,255,255,0.3);
+            border-radius: 4px;
+        }
+
+        .article-list a {
+            color: #1b5e20;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            display: block;
+        }
+
+        .article-list a:hover {
+            text-decoration: underline;
+        }
         @media (max-width: 900px) {
             .gallery-grid { grid-template-columns: repeat(2, 1fr); }
             .video-section { grid-template-columns: 1fr; }
@@ -208,6 +230,13 @@
                 <div class="video-wrapper"><div class="video-container"><iframe src="https://www.youtube.com/embed/E-WOnHQGhtU" allowfullscreen></iframe></div></div>
                 <div class="video-wrapper"><div class="video-container"><iframe src="https://www.youtube.com/embed/JYj_7JHzVkk" allowfullscreen></iframe></div></div>
                 <div class="video-wrapper"><div class="video-container"><iframe src="https://www.youtube.com/embed/xnwokC4qmjY" allowfullscreen></iframe></div></div>
+            </div>
+            <div class="article-list">
+                <ul>
+                    <li><a href="https://mediaklikk.hu/audio/bartok-radio/2026/02/16/12-05/zene/nepzene/" target="_blank" rel="noopener">Szélkiáltó dalok a Bartók rádióban 2026.02.16.</a></li>
+                    <li><a href="https://mediaklikk.hu/audio/bartok-radio/2026/02/23/12-05/zene/nepzene/" target="_blank" rel="noopener">Szélkiáltó dalok a Bartók rádióban 2026.02.23.</a></li>
+                    <li><a href="https://mediaklikk.hu/audio/bartok-radio/2026/03/02/12-05/zene/nepzene/" target="_blank" rel="noopener">Szélkiáltó dalok a Bartók rádióban 2026.03.02.</a></li>
+                </ul>
             </div>
         </div>
     </main>

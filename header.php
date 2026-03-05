@@ -72,7 +72,7 @@
     .nav-links li a:hover {
         background-color: #333;
     }
-
+    
     blockquote {
             font-style: italic;
             color: #4d5b4d;
@@ -147,7 +147,7 @@
     <ul class="nav-links">
         <li><a href="index.php">Kezdőlap/Main page</a></li>
         <li><a href="bemutatkozas.php">Bemutatkozás/About me</a></li>
-        <li><a href="galeria.php">Galéria/Pictures</a></li>
+        <li><a href="galeria.php">Galéria/Pictures-Music</a></li>
         <li><a href="koncertek.php">Előadások/Performances</a></li>
         <li><a href="kapcsolat.php">Kapcsolat/Contact</a></li>
         <li><a href="interjuk.php">Interjúk/Interviews</a></li>

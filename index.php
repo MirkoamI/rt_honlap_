@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rozs Tamás - Főoldal</title>
+    <title>Rozs Tamás - Zenész, gordonkaművész, zeneszerző</title>
+    <meta name="description" content="Rozs Tamás hivatalos weboldala. Előadások, műsorok, zenei felvételek és galéria.">
+    <meta name="keywords" content="Rozs Tamás, gordonka, Szélkiáltó, zene, színház, cselló">
+    <link rel="canonical" href="https://rozstamus.com/">
     <style>
         body {
             margin: 0;
